@@ -12,12 +12,13 @@
 <body>
     <h1 id="title">Survey Form</h1>
     <p id="description">This is a survey form.</p>
+    <div id="formelement">
     <form id="survey-form">
         <label for="name">Name</label><br>
         <input type="text" id="name" placeholder="type your name">
-        <label for="email">Name</label><br>
+        <label for="email">email</label><br>
         <input type="email" id="email" pattern="[a-zA-Z]@[a-zA-Z].com" placeholder="type your email">
-        <label for="number">Name</label><br>
+        <label for="number">Number</label><br>
         <input type="number" id="number" pattern="[0-9]+" min="10" max="100" placeholder="type your number">
         <select id="dropdown">
             <option value="email">email</option>
@@ -27,10 +28,10 @@
         <input type="radio" name="survey_radio">
         <input type="checkbox" value="firstCheckbox">
         <input type="checkbox" value="secondCheckbox">
-        <textarea  cols="30" rows="10" placeholder="enter your text"></textarea>
+        <textarea  cols="30" rows="10" placeholder="enter your text"></textarea><br>
         <input type="submit" id="submit">
     </form>
-
+</div>
 </body>
 
 </html>
