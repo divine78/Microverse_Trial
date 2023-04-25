@@ -5,9 +5,16 @@
 }
 
 body {
+	
 	background-image: linear-gradient(
 		to left,
 		rgba(66, 238, 51, 0.833),
 		rgb(47, 215, 9)
 	);
+}
+h1{
+	text-align: center;
+}
+#formelement{
+	padding-bottom: 1%;
 }
