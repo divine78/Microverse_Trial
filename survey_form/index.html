@@ -10,26 +10,45 @@
 </head>
 
 <body>
-    <h1 id="title">Survey Form</h1>
-    <p id="description">This is a survey form.</p>
-    <form id="survey-form">
-        <label for="name">Name</label><br>
-        <input type="text" id="name" placeholder="type your name">
-        <label for="email">Name</label><br>
-        <input type="email" id="email" pattern="[a-zA-Z]@[a-zA-Z].com" placeholder="type your email">
-        <label for="number">Name</label><br>
-        <input type="number" id="number" pattern="[0-9]+" min="10" max="100" placeholder="type your number">
-        <select id="dropdown">
-            <option value="email">email</option>
-            <option value="name">name</option>
-        </select>
-        <input type="radio" name="survey_radio">
-        <input type="radio" name="survey_radio">
-        <input type="checkbox" value="firstCheckbox">
-        <input type="checkbox" value="secondCheckbox">
-        <textarea  cols="30" rows="10" placeholder="enter your text"></textarea>
-        <input type="submit" id="submit">
-    </form>
+    <header>
+
+        <h1 id="title">Survey Form</h1>
+        <p id="description">This is a survey form.</p>
+    </header>
+    <main>
+
+        <div id="formelement">
+
+            <form id="survey-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="type your name"><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" pattern="[a-zA-Z]@[a-zA-Z].com" placeholder="type your email"><br>
+                <label for="number">Number:</label>
+                <input type="number" id="number" pattern="[0-9]+" min="10" max="100" placeholder="type your number"><br>
+                <select id="dropdown">
+                    <option value="email">email</option>
+                    <option value="name">name</option>
+                </select>
+                <fieldset>
+                    <legend>Gender</legend>
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="survey_radio"><br>
+                    <label for="female">Female</label>
+                    <input type="radio" name="survey_radio" id="female">
+                </fieldset>
+                <fieldset id="secondFieldset">
+                    <label for="agree">Agree to company's terms &amp; conditions</label>
+                    <input type="checkbox" value="firstCheckbox" id="agree"><br>
+                    <label for="subscribe">Check to subscribe for emails</label>
+                    <input type="checkbox" value="secondCheckbox">
+                </fieldset>
+                <textarea cols="30" rows="10" placeholder="enter your text"></textarea><br>
+                <input type="submit" id="submit">
+            </form>
+        </div>
+    </main>
+
 
 </body>
 

@@ -5,16 +5,47 @@
 }
 
 body {
-	
 	background-image: linear-gradient(
 		to left,
 		rgba(66, 238, 51, 0.833),
 		rgb(47, 215, 9)
 	);
+	font-size: 1.2rem;
 }
-h1{
+h1 {
 	text-align: center;
 }
-#formelement{
+#formelement {
 	padding-bottom: 1%;
+}
+
+header {
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+form input,
+form label,
+select {
+	font-size: 1em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+main {
+	margin: 1rem auto 1rem;
+	width: 80%;
+	line-height: 1.3em;
+}
+fieldset {
+	max-width: 300px;
+	min-width: 50%;
+	margin-bottom: 10px;
+}
+
+#secondFieldset {
+	font-size: 0.8em;
 }
