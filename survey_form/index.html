@@ -11,14 +11,17 @@
 <body>
     <h1 id="title">Survey Form</h1>
     <p id="description">This is a survey form.</p>
-    <form id="survey-form">
+    <form id="survey-form" >
         <label for="name">Name</label><br>
-        <input type="text" id="name">
+        <input type="text" id="name" placeholder="type your name">
         <label for="email">Name</label><br>
-        <input type="email" id="email" pattern="[a-zA-Z]@[a-zA-Z].com">
+        <input type="email" id="email" pattern="[a-zA-Z]@[a-zA-Z].com" placeholder="type your email">
         <label for="number">Name</label><br>
-        <input type="number" id="number" pattern="[0-9]+" min="10" max="100">
-
+        <input type="number" id="number" pattern="[0-9]+" min="10" max="100" placeholder="type your number">
+<select  id="dropdown">
+    <option value="email">email</option>
+    <option value="name">name</option>
+</select>
     </form>
 
 </body>
